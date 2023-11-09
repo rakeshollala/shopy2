@@ -1,0 +1,345 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.maincontainer{
+    width: 100%;
+    height: 170vh;
+    background-color: pink;
+}
+.header{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(118, 34, 48);
+    position: static;
+}
+.headerInputs{
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    top: 23px;
+    margin-left: 90px;
+
+}
+.headerInputs:hover{
+    color: orange;
+}
+#homepng{
+    width: 25px;
+    position: relative;
+    top: 30px;
+    left: 75px;
+
+}
+#headerInputs{
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    top: 23px;
+    margin-left: 80px;
+
+}
+#headerInputs:hover{
+    color: orange;
+}
+.contentContainer{
+    width: 100%;
+    height: 300px;
+    border-radius: 50px;
+    background-color: orange;
+    
+}
+.headings{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 380px;
+    position: relative;
+    top: 10px;
+    
+}
+#headings{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 80px;
+    position: relative;
+    top: 10px;
+    
+}
+.mainShoeCon{
+    width: 100%;
+    height: 350px;
+    
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    bottom: 40vh;
+}
+.shoeContainer{
+    width: 20%;
+    height: 350px;
+    background-color: rgba(154, 55, 71, 0.285);
+    box-shadow: 5px 5px 5px black;
+
+    border-radius: 20px;
+}
+.mainShoeCon2{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    bottom: 40vh;
+}
+.shoeContainer2{
+   
+    width: 20%;
+    height: 350px;
+    background-color: rgba(154, 55, 71, 0.285);
+    box-shadow: 5px 5px 5px black;
+
+    border-radius: 20px;
+    position: relative;
+    top: 100px;
+}
+.headings2{
+    position: absolute;
+    top: 88vh;
+    margin-left: 42vw;
+}
+.childimg{
+    width: 80%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 30px;
+
+}
+.img{
+    width: 200px;
+    height: 200px;
+    rotate: -50deg;
+    
+}
+.buttons{
+    position: relative;
+    top: 10px;
+    margin-left: 150px;
+    width: 30px;
+}
+.shoebutton{
+    position: relative;
+    top: 10px;
+    width: 30px;
+    margin-left: 10px;
+
+
+}
+.names{
+    position: relative;
+    top: 20px;
+    margin-left: 40px;
+}
+.price{
+    position: relative;
+    top: 25px;
+    margin-left: 100px;
+}
+#price1{
+    position: relative;
+    top: 5px;
+
+}
+#selecttag{
+    position: relative;
+    top: 10px;
+    margin-left: 88vw;
+    border: none;
+    border-radius: 10px;
+}
+.mainconsignup{
+    width: 100%;
+    height: 90vh;
+    background-color:pink ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-attachment: fixed;
+    position: fixed;
+}
+#mainconsignup{
+    display: none;
+}
+.childsignup{
+    width: 25%;
+    height: 70vh;
+    background-color: rgba(154, 55, 71, 0.285);
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px black;
+    position: fixed;
+}
+#signtext{
+    margin-left: 9vw;
+}
+.signtext{
+    margin-left: 9vw;
+    position: relative;
+    top: 10px;
+}
+#signtext1{
+    color: red;
+    margin-left: 8vw;
+}
+
+.signinputbuttons{
+    margin-left: 5vw;
+    width: 200px;
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+#submitbut{
+   margin-top: 25px;
+   margin-left: 9.5vw;
+   width: 80px;
+   height: 30px;
+   border-radius: 10px;
+   letter-spacing: 2px;
+   font-size: 16px;
+   background-color: black;
+   color: orange;
+}
+#emailtext{
+    margin-left: 11vw;
+    
+}
+#passwordtext{
+    margin-left: 10vw;
+}
+.loginmainCon{
+    width: 100%;
+    height: 90vh;
+    background-color:pink ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+    position: fixed;
+}
+#loginmainCon{
+    display: none;
+}
+.childlogin{
+    width: 25%;
+    height: 60vh;
+    background-color:  rgba(154, 55, 71, 0.285);
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px black;
+    
+
+}
+#logintext{
+    margin-left: 9vw;
+}
+.emailtext{
+    margin-left: 10vw;
+    margin-top: 10px;
+    
+}
+.logininputs
+{
+    margin-left: 6vw;
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    /* position: relative;
+    top: 10px; */
+    margin-top: 20px;
+}
+#emailtext{
+    margin-left: 11vw;
+
+}
+#passwordtext{
+    margin-left: 10.5vw;
+   position: relative;
+   top: 6px;
+}
+#texterror{
+    margin-left: 7vw;
+}
+#loginsubmitbut{
+    width: 80px;
+   height: 30px;
+   border-radius: 10px;
+   letter-spacing: 2px;
+   font-size: 16px;
+   background-color: black;
+   color: orange;
+   margin-left:9vw ;
+   position: relative;
+   bottom: 0px;
+   display: block;
+}
+#myAccountcon{
+    width: 100%;
+    height: 90vh;
+    display: none;
+}
+.myaccountchild{
+    width: 50%;
+    height: 90vh;
+    float: left;
+}
+#updatepasstext{
+    margin-left: 10vw;
+}
+.passwordtextchange{
+    margin-left: 14vw;
+    margin-top: 6vh;
+}
+.inputbuttonchnage{
+    width: 300px;
+    margin-left: 6vw;
+    height: 25px;
+    border-radius: 10px;
+    
+}
+#submitpasschange1{
+    position: absolute;
+    top: 86vh;
+    right: 76vw;
+
+    width: 100px;
+    height: 30px;
+    background-color: black;
+    color: orangered;
+}
+#ordertext{
+    margin-left: 10vw;
+}
+.setimage{
+    width: 20px;
+}
+#errortextChange{
+    color: red;
+    margin-left: 14vw;
+}
+.contactContainer{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#contactContainer{
+    display: none;
+}
+.socialmedia{
+    width: 50%;
+    height: 300px;
+    margin-left: 10vw;
+}

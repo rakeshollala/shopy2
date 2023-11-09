@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="./footware css/footware.css">
+    <script src="./footware js/footware.js" defer></script>
+</head>
+<body>
+<div class="maincontainer" id="maincontainer">
+     <div class="header">
+        <img src="./photos/home button.png" id="homepng" onclick="home()">
+        <span id="headerInputs" onclick="home()">shophub</span>
+        <span class="headerInputs" onclick="home()">Home</span>
+        <span class="headerInputs">shop</span>
+        <span class="headerInputs" onclick="blog()">Blog</span>
+        <span class="headerInputs" onclick="contact()">Contact</span>
+        <span class="headerInputs" onclick="loginpage()">Login</span>
+        <span class="headerInputs" onclick="signup()">signUp</span>
+        <span class="headerInputs" onclick="myaccount()">myAccount</span>
+     </div>
+     <div class="contentContainer" id="contentContainer">
+        <span id="headings">home/shop</span>
+        <span class="headings">shop</span>
+        <span class="headings">Showing 1-2 of 36 results</span>
+        <select name="" id="selecttag">
+            <option value="">Default sorting</option>
+            <option value="">Latest</option>
+            <option value="">Acending</option>
+            <option value="">desending</option>
+        </select>
+        
+    </div>
+    <div class="mainShoeCon" id="mainShoeCon">
+        <div class="shoeContainer">
+            <img src="./photos/x symbrol.png" alt="" class="shoebutton">
+            <img src="./photos/login.png" alt="" class="buttons" onclick="signup()">
+            <div class="childimg" >
+            <img src="./photos/shoe1.png" alt="" class="img">
+            
+        </div>
+        <h3 class="names">Nike Air Max to chuck Taylors</h3>
+          <h4 class="price" id="price1">336</h4>
+         
+        </div>
+        <div class="shoeContainer">
+            <img src="./photos/x symbrol.png" alt="" class="shoebutton">
+            <img src="./photos/login.png" alt="" class="buttons" onclick="signup()">
+            <div class="childimg">
+            <img src="./photos/shoe2.png" alt="" class="img">
+        </div>
+        <h3 class="names">Nike Air force 1</h3>
+          <h4 class="price">300</h4>
+        </div>
+        <div class="shoeContainer">
+            <img src="./photos/x symbrol.png" alt="" class="shoebutton">
+            <img src="./photos/login.png" alt="" class="buttons" onclick="signup()">
+            <div class="childimg">
+            <img src="./photos/shoe3.png" alt="" class="img">
+        </div>
+        <h3 class="names">Nike Air max 95</h3>
+          <h4 class="price">400</h4>
+        </div>
+        <div class="shoeContainer">
+            <img src="./photos/x symbrol.png" alt="" class="shoebutton">
+            <img src="./photos/login.png" alt="" class="buttons" onclick="signup()">
+            <div class="childimg">
+            <img src="./photos/shoe4.png" alt="" class="img">
+        </div>
+        <h3 class="names">Nike Air Max 95</h3>
+          <h4 class="price">500</h4>
+        </div>
+
+    </div>
+    
+    <div class="mainShoeCon2" id="mainShoeCon2">
+       
+        <div class="shoeContainer2">
+            <img src="./photos/x symbrol.png" alt="" class="shoebutton">
+            <img src="./photos/login.png" alt="" class="buttons" onclick="signup()">
+            <div class="childimg">
+           <img src="./photos/shoe4.png" alt="" class="img">
+        </div>
+        <h3 class="names">Nike Air Max to chuck Taylors</h3>
+        <h4 class="price" id="price1">336</h4>
+        </div>
+        <div class="shoeContainer2">
+            <img src="./photos/x symbrol.png" alt="" class="shoebutton">
+            <img src="./photos/login.png" alt="" class="buttons" onclick="signup()">
+           
+            <div class="childimg">
+            <img src="./photos/shoe3.png" alt="" class="img">
+        </div>
+        <h3 class="names">Nike Air force 1</h3>
+          <h4 class="price">300</h4>
+        </div>
+        <div class="shoeContainer2">
+            <img src="./photos/x symbrol.png" alt="" class="shoebutton">
+            <img src="./photos/login.png" alt="" class="buttons" onclick="signup()">
+            <div class="childimg">
+            <img src="./photos/shoe2.png" alt="" class="img">
+        </div>
+        <h3 class="names">Nike Air max 95</h3>
+          <h4 class="price">400</h4>
+        </div>
+        <div class="shoeContainer2">
+            <img src="./photos/x symbrol.png" alt="" class="shoebutton">
+            <img src="./photos/login.png" alt="" class="buttons" onclick="signup()">
+            <div class="childimg">
+            <img src="./photos/shoe1.png" alt="" class="img">
+        </div>
+        <h3 class="names">Nike Air Max 95</h3>
+          <h4 class="price">500</h4>
+        </div>
+        
+    </div>
+    <h1 class="headings2" id="headings2">Related Products</h1>
+    <div class="mainconsignup" id="mainconsignup">
+        <div class="childsignup">
+            <h1 id="signtext">signUp</h1>
+            
+            <label for="" class="signtext" id="emailtext">Email : 
+                <input type="email" placeholder="enter email" required class="signinputbuttons" id="emailinput" autocomplete="off">
+            </label>
+            <label for="" class="signtext" id="passwordtext">password :
+                <input type="password" placeholder="enter password" required class="signinputbuttons" id="passwordinput">
+                
+            </label>
+            <label for="" class="signtext">Confirm password :
+                <input type="password" placeholder="enter confirm password" required class="signinputbuttons" id="confirmpassword">
+                
+            </label>
+            <h4 id="signtext1"></h4>
+            <button class="signtext" id="submitbut" onclick="callloginpage()" >submit</button>
+        
+        </div>
+        
+    </div>
+    <div class="loginmainCon" id="loginmainCon">
+        <div class="childlogin">
+            <h1 id="logintext">Login</h1>
+            <label for="" class="emailtext" id="emailtext">Email :
+                <input type="email" placeholder="enter email" class="logininputs" id="loginemail" required>
+            </label>
+            <label for="" class="emailtext" id="passwordtext">password :
+                <input type="password" placeholder="enter password" class="logininputs" id="loginpassword" required>
+            </label>
+             <h4 id="texterror" style="color: red; display: none;">incorrect email or password</h4>
+            <button class="logininputs" id="loginsubmitbut" onclick="callhomepage()">submit</button>
+    
+        </div>
+        
+    </div>
+    <div id="myAccountcon">
+        <div class="myaccountchild">
+            <h1 id="updatepasstext">Update password</h1>
+            <h4 for="" class="passwordtextchange">Current password</h4>
+            <input type="text" placeholder="current password" class="inputbuttonchnage" required id="input1">
+            <h4 for="" class="passwordtextchange">New password</h4>
+            <input type="text" placeholder="current password" class="inputbuttonchnage" required id="input2">
+            <h4 for="" class="passwordtextchange">Confirm password</h4>
+            <input type="text" placeholder="current password" class="inputbuttonchnage" required id="input3">
+            <h4 id="errortextChange"></h4>
+            <button onclick="updatepassword()" id="submitpasschange1">submit</button>
+        </div>
+        <div class="myaccountchild">
+            <h1 id="ordertext">Order Details</h1>
+            <table style="border: 2px solid black;border-collapse: collapse;" id="ordertext">
+                <tr>
+                    <th style="border: 2px solid black;">ORDER ID</th>
+                    <th style="border: 2px solid black;">TIME STAMP</th>
+                    <th style="border: 2px solid black;">TOTAL</th>
+                    <th style="border: 2px solid black;">ACTIONS</th>
+                </tr>
+                <tr>
+                    <th style="border: 2px solid black;">65526dsds</th>
+                    <th style="border: 2px solid black;">22102021</th>
+                    <th style="border: 2px solid black;">$336</th>
+                    <th style="border: 2px solid black;">
+                    <img src="./photos/! symobl.png" alt="" class="setimage">
+                    <img src="./photos/deelet.png" alt="" class="setimage">
+                    </th>
+                </tr>
+            </table>
+        </div>
+
+    </div>  
+    <div class="contactContainer" id="contactContainer">
+        <a href="https://web.whatsapp.com/"><img src="./photos/facebook.png"class="socialmedia" alt=""></a>
+        <a href="https://www.instagram.com/"><img src="./photos/instagram (2).png" class="socialmedia" alt=""></a>
+        <a href="https://www.facebook.com/"><img src="./photos/whatsup (2).png"  class="socialmedia" alt=""></a>
+        <a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZW4ifQ%3D%3D%22%7D"><img src="./photos/twitter.png"  class="socialmedia" alt=""></a>
+    </div>
+</div>
+    
+</body>
+</html>
